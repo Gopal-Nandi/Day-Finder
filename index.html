@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta property="og:image" content="https://gopal-nandi.github.io/Day-Finder/assets/calender.png" />
+    <meta name="description"
+        content="Find the day of the week for any date using this simple JavaScript Day Finder tool.">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Gopal Nandi">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Day Finder</title>
+</head>
+
+<body>
+
+    <h1>Enter your date to determine the day of the week</h1>
+
+    <div class="date-area">
+        <div class="date-input">
+            <input type="number" maxlength="2" class="day input-box" id="day" placeholder="dd">
+            <input type="number" maxlength="2" class="month input-box" id="month" placeholder="mm">
+            <input type="number" maxlength="4" class="year input-box" id="year" placeholder="yyyy">
+        </div>
+
+        <button class="submit-btn" id="submit-btn">Submit</button>
+    </div>
+
+    <div class="week-day" id="week-day">Day</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
